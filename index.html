@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav-header -->
+          <div class="nav-header">
+            <img src="./logo.svg" alt="logo" class="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">О Магаданской области</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">Путиводитель</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">События</a>
+              </li>
+              <li>
+                <a href="#tours" class="scroll-link">Туры</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner   -->
+      <div class="banner">
+        <div class="container">
+          <h1>Магадан</h1>
+          <p>
+            Регион суровых зим, многолетней мерзлоты и золотоносных жил. За год
+            у нас добывают более 20 тонн золота. Здесь, в краю стремительных
+            сплавных рек и нетронутой природы, лишь изредка встретишь кочевых
+            оленеводов или золотодобытчиков: плотность населения Магаданской
+            области такова, что на 3 квадратных километра приходится всего 1
+            житель. Время авиаперелета из Москвы в Магадан составляет 7,5 часов.
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white">Начать тур</a>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>Путиводитель</h2>
+      </div>
+    </section>
+    <!-- services -->
+    <section class="section" id="services">
+      <div class="title">
+        <h2>События</h2>
+      </div>
+    </section>
+    <!-- tours -->
+    <section class="section" id="tours">
+      <div class="title">
+        <h2>Туры</h2>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; Магаданский туристический портал
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <!-- back to top btn -->
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
